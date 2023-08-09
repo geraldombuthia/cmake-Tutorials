@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmakeTutorial.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmakeTutorial.dir/objects.a @CMakeFiles\cmakeTutorial.dir\objects1.rsp
+C:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\cmakeTutorial.dir/objects.a -Wl,--no-whole-archive -o cmakeTutorial.exe -Wl,--out-implib,libcmakeTutorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmakeTutorial.dir\linkLibs.rsp

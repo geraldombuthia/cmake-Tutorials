@@ -1,0 +1,6 @@
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/CMakeFiles/cMakeLibraries.dir
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/CMakeFiles/edit_cache.dir
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/CMakeFiles/rebuild_cache.dir
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/Adder/CMakeFiles/adder.dir
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/Adder/CMakeFiles/edit_cache.dir
+D:/Systems/C tutorials/cmake Tutorials/cMakeLibrariesTutorial/build/Adder/CMakeFiles/rebuild_cache.dir

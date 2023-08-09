@@ -1,0 +1,30 @@
+# Set the minimum required version of CMake
+cmake_minimum_required(VERSION 3.27.0)
+
+# Declare the project name
+project(cMakeLibraries)
+
+# Create an executable target named after the project
+add_executable(${PROJECT_NAME} main.cpp)
+
+# Add the subdirectory of the library which contains its CMakeLists.txt
+add_subdirectory(Adder)
+
+# Ensure that we can use the library as #include <adder.h> instead of #include <Adder/adder.h>
+target_include_directories(${PROJECT_NAME} PUBLIC Adder)
+
+# Specify the directory where the libraries will be located (not necessary in this case)
+# This line isn't commonly used for library linking; libraries are usually found through other means.
+# target_link_directories(${PROJECT_NAME} PRIVATE Adder)
+
+# Link the adder library with the executable
+target_link_libraries(${PROJECT_NAME} PUBLIC adder)
+
+# In summary
+# Sets the minimum required version of CMake.
+# Declares the project name as "cMakeLibraries".
+# Creates an executable target named after the project (in this case, the project name is stored in ${PROJECT_NAME}).
+# Adds the subdirectory "Adder" which contains the library's CMakeLists.txt file.
+# Ensures that the adder.h header can be included using a simple #include <adder.h> directive.
+# (Optional, but not commonly used) Specifies a directory for linking libraries (not necessary in this case).
+# Links the "adder" library with the executable, making the library's functions/classes available to the executable.

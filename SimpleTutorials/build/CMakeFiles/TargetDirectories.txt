@@ -1,0 +1,3 @@
+D:/Systems/C tutorials/cmake Tutorials/SimpleTutorials/build/CMakeFiles/cmakeTutorial.dir
+D:/Systems/C tutorials/cmake Tutorials/SimpleTutorials/build/CMakeFiles/edit_cache.dir
+D:/Systems/C tutorials/cmake Tutorials/SimpleTutorials/build/CMakeFiles/rebuild_cache.dir
